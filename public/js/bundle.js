@@ -6,6 +6,7 @@ React.render(
     React.createElement(RoomList, {rooms: ['asdf', '123']}),
     document.getElementById('content')
 );
+
 },{"./views/RoomList":149,"react":148}],2:[function(require,module,exports){
 // shim for using process in browser
 
@@ -18345,4 +18346,5 @@ var RoomList = React.createClass({displayName: "RoomList",
 });
 
 module.exports = RoomList;
+
 },{"react":148}]},{},[1]);
